@@ -1,0 +1,16 @@
+{
+  "name": "task-manager-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen DiSalvio",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1"
+  }
+}
