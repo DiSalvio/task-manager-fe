@@ -1,0 +1,12 @@
+<ul>
+  <li ng-repeat="bucket in vm.buckets | filter: vm.search">
+    title: {{bucket.title}}
+    description: {{bucket.description}}
+    <ul>
+      <li ng-repeat="task in bucket.tasks">
+      title: {{task.title}}
+      status: {{task.status}}
+      </li>
+    </ul>
+  </li>
+</ul>
